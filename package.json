@@ -1,0 +1,36 @@
+{
+  "name": "wolffer",
+  "version": "1.0.0",
+  "description": "Add some wolffing to your JS",
+  "main": "build/index.js",
+  "scripts": {
+    "build:watch": "watch 'npm run build' src",
+    "build": "babel src -d build --ignore 'src/*.test.js'",
+    "test": "jest",
+    "test:watch": "npm test -- --watch"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d0cz/wolffer.git"
+  },
+  "keywords": [
+    "wolff",
+    "topdabalada"
+  ],
+  "author": "Bruno Wolff (twitter.com/d0cz)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d0cz/wolffer/issues"
+  },
+  "homepage": "https://github.com/d0cz/wolffer#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-env": "^1.2.2",
+    "watch": "^1.0.2"
+  }
+}
