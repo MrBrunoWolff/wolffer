@@ -1,4 +1,4 @@
-import wolffer from '.'
+import {wolffer} from '.'
 
 test('replaces blacklisted word with asterisks', () => (
   expect(wolffer('hey there', ['hey'])).toBe('**** there')
