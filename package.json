@@ -33,6 +33,7 @@
   "devDependencies": {
     "babel-cli": "^6.24.0",
     "babel-preset-env": "^1.2.2",
+    "jest": "^19.0.2",
     "np": "^2.13.1",
     "watch": "^1.0.2"
   }
