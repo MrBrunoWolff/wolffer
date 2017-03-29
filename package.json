@@ -1,6 +1,6 @@
 {
   "name": "wolffer",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Add some wolffing to your JS",
   "main": "build/index.js",
   "scripts": {
